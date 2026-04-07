@@ -8,23 +8,23 @@ const ExploreContainer: React.FC<ContainerProps> = () => {
     <IonList>
       <IonItem>
         <IonLabel>Followers</IonLabel>
-        <IonBadge color="primary">22k</IonBadge>
+        <IonBadge color="primary">20k</IonBadge>
       </IonItem>
       <IonItem>
         <IonLabel>Likes</IonLabel>
-        <IonBadge color="secondary">118k</IonBadge>
+        <IonBadge color="secondary">113k</IonBadge>
       </IonItem>
       <IonItem>
         <IonLabel>Stars</IonLabel>
-        <IonBadge color="tertiary">34k</IonBadge>
+        <IonBadge color="tertiary">38k</IonBadge>
       </IonItem>
       <IonItem>
         <IonLabel>Completed</IonLabel>
-        <IonBadge color="success">80</IonBadge>
+        <IonBadge color="success">90</IonBadge>
       </IonItem>
       <IonItem>
         <IonLabel>Warnings</IonLabel>
-        <IonBadge color="warning">70</IonBadge>
+        <IonBadge color="warning">80</IonBadge>
       </IonItem>
       <IonItem>
         <IonLabel>Notifications</IonLabel>
