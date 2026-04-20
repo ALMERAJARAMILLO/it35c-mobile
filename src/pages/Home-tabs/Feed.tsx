@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 
 const Feed: React.FC = () => {
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     const games = [
         { name: 'Pokemon Yellow' },
         { name: 'Mega Man X' },
@@ -25,7 +26,7 @@ const Feed: React.FC = () => {
             setFilteredGames(filtered);
         }, 400);
         return () => clearTimeout(debounce);
-    }, [searchText]);
+    }, [games, searchText]);
     return (
         <IonPage>
             <IonHeader>
